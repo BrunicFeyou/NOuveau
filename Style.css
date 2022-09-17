@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+ body { 
+    background: rgb(134, 143, 103);
+}
+
+p {
+     color: white(12, 15, 17);
+     font-size: 42px;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+.title { 
+   font-size: 72px; 
+   font-weight: 400;
+   font-family: 'Dancing Script', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Raleway', sans-serif;
+
+}
+img {
+    width: 25%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.box{
+    background-color: orange;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    height: 200px;
+    padding-top: 120px;
+}
+
+.box:hover {
+    background-color: rgb(25, 22, 24);
+}
+
+    
+
+
+.box:hover .special {
+    font-weight: bold;
+    color: orange;
+}
+
+.container {
+    background-color: white;
+    height: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+
+}
+
+.boite1 {
+    width: 40%;
+    height: 200px;
+    border: 2px solid pink;
+}
+
+.boite2 {
+    width: 50%;
+    height: 100px;
+    border: 2px solid pink;
+}
+
+.boite3 {
+    width: 30%;
+    height: 100px;
+    border: 2px solid pink;
+}
+#presentation {
+
+}
+
+html, body { 
+    scroll-behavior: smooth;
+}
+
+.lien {
+    font-family: 'Dancing Script', cursive;
+font-family: 'Raleway', sans-serif;
+}
